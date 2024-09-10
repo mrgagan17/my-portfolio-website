@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+    <center>
+	<h2>About Me</h2>
+    <div class="about-container">
+        &nbsp;&nbsp;&nbsp;<img src="images/profile.jpg" alt="Profile Image" class="profile-img">
+        <p><b>Hello! I am M R Gagan, a beginner web developer with a passion for creating beautiful and functional websites.
+		Currently, I’m expanding my knowledge in front-end and back-end technologies, and I’m always eager to learn new skills and take on exciting projects.</b></p>
+    </div>
+	</center>
+	</section>
+	
+	<section id="projects">
+    <center><h2>My Projects</h2></center><br>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>MPG-Predictor-R</h3>
+            <img src="images/project.jpg" alt="Project 1 Image" class="project-img">
+            <p>The application of multivariate linear regression in R to predict the miles per gallon (MPG) of cars. In this project, a multivariate linear regression model was developed to predict the miles per gallon (MPG) of cars based on various factors. Using the well-known mtcars dataset, the model was built to explore the relationships between MPG and key vehicle characteristics such as weight (wt), horsepower (hp) and quarter-mile time (qsec).</p>
+		 <a href="https://github.com/mrgagan17/MPG-Predictor-R"><button type="button" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">More..</a></button>
+        </div>
+        <div class="project-card">
+            <h3>Password-Hasher-GUI</h3>
+            <img src="images/project1.jpg" alt="Project 2 Image" class="project-img">
+             <p>This project provides a password hashing tool using SHA-256, featuring a graphical user interface (GUI) built with Tkinter. The application allows users to enter a password and view its hashed value in an easy-to-use window.</p>
+		<a href="https://github.com/mrgagan17/Password-Hasher-GUI"><button type="button" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">More..</a></button>
+	
+        </div>
+        <div class="project-card">
+            <h3>movie-database</h3>
+            <img src="images/project2.jpg" alt="Project 3 Image" class="project-img">
+            <p>The Movie Database Project is a web application that allows users to search for movies and view detailed information about them using the OMDb API. The application features movie searches, detailed movie views, and the ability to add movies to a favorites list.</p>
+        <a href="https://github.com/mrgagan17/movie-database"><button type="button" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">More..</a></button>
+		</div>
+        
+    </div>
+</section>
+
+
+
+    <section id="contact">
+        <center><h2><u>Contact Me</u></h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>            </center>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p><p>Designed By <b>M R Gagan</b></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
